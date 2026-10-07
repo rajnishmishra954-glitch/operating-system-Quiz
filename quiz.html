@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Operating System Hard Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="quiz-container" id="quiz">
+
+        <h1>Operating System Quiz</h1>
+
+        <p id="progress">Question 1 of 20</p>
+
+        <div class="progress-bar">
+            <div id="progress-fill"></div>
+        </div>
+
+        <h2 id="question">
+            Question will appear here
+        </h2>
+
+        <div id="options"></div>
+
+        <button id="next-btn" disabled>
+            Next Question
+        </button>
+
+    </div>
+
+
+    <div class="quiz-container hidden" id="result">
+
+        <h1>Quiz Completed!</h1>
+
+        <p id="score"></p>
+
+        <button id="restart-btn">
+            Restart Quiz
+        </button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
